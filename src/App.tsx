@@ -51,7 +51,7 @@ function ProductList() {
       <h2 className="text-center">상품 목록</h2>
       <ul className="grid grid-cols-3 gap-8">
         {products.map((product: Product) => (
-          <Link to={`/product/${product.id}`}>
+          <Link to={`/products/${product.id}`}>
             <ProductCard title={product.title} image={product.image} />
           </Link>
         ))}
