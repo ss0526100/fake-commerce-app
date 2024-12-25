@@ -1,13 +1,18 @@
-# [손에 익는 Next.js] Part 2 - Next.js로 마이그레이션하기 예제
+# Next.js로 마이그레이션하기
 
-## fake-commerce-app
+## STEP-1 마이그레이션 하기
 
-Vite를 이용하고 React Router를 사용한 앱 입니다. 상품 목록, 상품 상세 페이지를 이동하는 앱을 마이그레이션 합니다. Fake Store API를 이용하고 TailwindCSS 기반의 daisyUI를 함께 사용합니다.
+[API 링크](https://github.com/hajoeun/fake-commerce-app/tree/main)
 
-- Node 20.10.0 버전을 사용합니다. (23년 12월 기준 LTS)
-- TypeScript 5 이상의 버전을 사용합니다.
-- VSCode를 사용합니다.
+[API 문서](https://fakestoreapi.com/docs)
 
-## 관련 링크
+다음 커밋으로 git reset 후 진행한다.
 
-- [핸드북](https://book.hajoeun.dev/friendly-next-js/v/part-2/)
+972e16d14bf91be8c3f53d484022f407a2aee8b8
+
+```
+git reset 972e16d14bf91be8c3f53d484022f407a2aee8b8
+```
+
+기타 UI는 자유롭게 업데이트 한다.
+단, UI 업데이트에 대한 우선순위를 낮추고, Next.js로 마이그레이션 하는 것에 집중한다.
